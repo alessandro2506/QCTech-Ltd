@@ -1,7 +1,7 @@
 # STUDIO_CONSULENZE_AZIENDALI_INTEGRATE.md — Progetto Cliente
 > Parent: `CLAUDE.md`
 > Ultimo aggiornamento: Maggio 2026
-> Stato: 🟡 IN PROSPECTING — Sito sviluppato e build completata senza errori. In attesa di inviare proposta commerciale al cliente.
+> Stato: 🟠 PRESENTAZIONE PRONTA — Demo live, presentazione PDF 4 pagine completata. Prossimo step: contattare il cliente.
 
 ---
 
@@ -149,7 +149,8 @@ Istituzionale premium — stile studio notarile/legale moderno. Bianco/navy/oro.
 | Contratto | ⬜ Da generare | Template Alvenco v2 |
 | Kick-off — raccolta info | ⬜ — | Team, servizi reali, foto, anno fondazione |
 | Personalizzazione TODO: | ⬜ — | Vedi checklist go-live sotto |
-| Deploy Vercel + dominio | ⬜ — | — |
+| Deploy Vercel demo | ✅ Online | https://studio-consulenze-web.vercel.app/ |
+| Presentazione PDF (4 pagine) | ✅ Completata | Salvata in Contratti/Clienti/Sicilia/Studio ACAI/Presentazione/ |
 
 ---
 
@@ -211,3 +212,4 @@ src/
 |---|---|
 | 2026-05-12 | File creato. Anagrafica, stack, architettura, design system, pipeline commerciale definiti. Stato: IN PROSPECTING. |
 | 2026-05-12 | Build Astro completata senza errori. Struttura progetto, checklist go-live aggiunte. Pipeline aggiornata. |
+| 2026-05-12 | Deploy Vercel attivo: https://studio-consulenze-web.vercel.app/ — Fix nome studio: TODO → Studio A.C.A.I. su tutti i meta e copy. |
