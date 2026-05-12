@@ -165,8 +165,9 @@ Schema.org FAQPage implementato su homepage e pagina FAQ.
 |---|---|---|
 | Google Business Profile | 🔴 Alta | Aumenta visibilità locale UK |
 | Registrazione Clutch.co | 🔴 Alta | Citata da ChatGPT/Gemini per "best web agency UK" |
-| Registrazione Bark.com | 🟡 Media | Piattaforma UK clienti cercano agenzie |
-| Primo articolo blog | 🟡 Media | "How much does a website cost UK 2026" — 1500+ parole |
+| Registrazione Bark.com | ✅ FATTO | Guida operativa completata 03/05/2026 — template risposta lead pronto |
+| Primo articolo blog | ✅ FATTO | "How Much Does a Website Cost in the UK? 2026" — pubblicato su /blog |
+| Sezione blog Next.js | ✅ FATTO | MDX-free, gray-matter, route /blog e /blog/[slug], bilingue IT/EN |
 | Immagini pagine | 🟡 Media | Illustrazioni o stock Unsplash per Vision e Home |
 | Lighthouse audit | 🟡 Media | Verificare LCP < 2.5s, CLS < 0.1, score > 90 |
 | Pagina portfolio/case study | 🟢 Bassa | Quando ci sono progetti completati da mostrare |
@@ -177,6 +178,10 @@ Schema.org FAQPage implementato su homepage e pagina FAQ.
 
 | Data | Modifica |
 |---|---|
+| 06/05/2026 | Fix x-default hreflang: ora punta sempre a /en invece di altLocalePath dinamico |
+| 06/05/2026 | Regola operativa: verificare sempre modifiche con `git diff HEAD 'file'` prima del commit |
+| 03/05/2026 | Registrazione Bark.com: guida operativa, template risposta lead, KPI tracking |
+| 03/05/2026 | Primo articolo blog prodotto: "How Much Does a Website Cost in the UK? 2026" — 1600+ parole, keyword target: how much does a website cost UK 2026 |
 | Maggio 2026 | WhatsApp deep link con messaggio precompilato IT/EN professionale |
 | Maggio 2026 | Icona WhatsApp SVG (#25D366) sostituisce icona telefono |
 | Maggio 2026 | Orari apertura UK (37.5h) in pagina contatti |

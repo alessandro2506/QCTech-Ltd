@@ -100,10 +100,11 @@
 8. **Percorso locale**: `/Users/alessandrofiscella/Desktop/Progetti/ClaudesBrain/`
 9. **GitHub backup**: https://github.com/alessandro2506/AlvencoLtd
 10. **PRIMA DI OGNI SOLUZIONE** → porre almeno 5 domande chiave ad Alex. Contestare insieme finché la risposta è davvero la migliore. Dare sempre la soluzione più smart, elegante e semplice possibile — zero preamboli, zero papiri promozionali, sia nelle spiegazioni che nei prompt Cursor. Prima di creare qualsiasi cosa → autoanalisi critica: identificare i 3 buchi principali, i punti deboli, cosa potrebbe andare storto.
-11. **AGGIORNAMENTO FILE .md — REGOLA PERMANENTE E PRIORITARIA**: Ad ogni modifica significativa aggiornare IMMEDIATAMENTE e SEMPRE:
+11. **AGGIORNAMENTO FILE .md + REPO — REGOLA PERMANENTE E PRIORITARIA**: Ad ogni modifica significativa aggiornare IMMEDIATAMENTE e SEMPRE:
     - Il file `.md` corrispondente in `ClaudesBrain/`
     - Il `README.md` nella cartella del progetto in Cursor
     - Il `CLAUDE.md` master se la modifica impatta più progetti
+    - **La repository GitHub `https://github.com/alessandro2506/AlvencoLtd` deve essere sempre allineata al locale** — dopo ogni modifica ai file `.md` eseguire: `git add . && git commit -m "..." && git push origin main`
     - Questo vale per TUTTI i progetti senza eccezioni: sito Alvenco, CivicAlert, Città Chiara, Ewooow, clienti, ecc.
     - **Non aspettare la fine della sessione** — aggiornare durante la sessione stessa
     - **Scopo**: evitare perdita di contesto, non ripetere errori già risolti, documentazione sempre allineata al codice reale
