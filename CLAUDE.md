@@ -1,5 +1,5 @@
 # CLAUDE.md — Master Index
-> Ultimo aggiornamento: Aprile 2026 — Aggiunto ALVENCO_TEMPLATE_CONTRATTI_RULES.md + Statuto + Template Contratto
+> Ultimo aggiornamento: Maggio 2026 — Aggiunto STUDIO_CONSULENZE_AZIENDALI_INTEGRATE.md (nuovo cliente Palermo — studio fiscale/tributario, stato prospecting)
 > Questo è il file master. Contiene il contesto aziendale di Alvenco Ltd e i collegamenti a tutti i file figli per ogni progetto/chat.
 > **REGOLA**: Prima di ogni azione, leggere il file figlio corrispondente alla chat attiva. Aggiornarlo dopo ogni modifica significativa.
 
@@ -16,11 +16,15 @@
 ├── ALVENCO_TEMPLATE_CONTRATTI_RULES.md        ← Regole obbligatorie per tutti i contratti ← NUOVO
 ├── ALVENCO_AI_SOCIAL.md                       ← Sistema AI post/reel autonomi sui social
 ├── ALVENCO_AI_AGENTE.md                       ← Agente AI acquisizione clienti
-├── CIVICALERT_APP.md                          ← App mobile CivicAlert (UK)
-├── CITTA_CHIARA.md                            ← App mobile Città Chiara (Italia)
+├── CIVICALERT_APP.md                          ← ⚠️ ARCHIVIATO — vedi CIVIC_UNIFIED_APP.md
+├── CITTA_CHIARA.md                            ← ⚠️ ARCHIVIATO — vedi CIVIC_UNIFIED_APP.md
+├── CIVIC_UNIFIED_APP.md                       ← ✅ ATTIVO — App civica unificata IT+UK (AlvencoLtd repo)
 ├── EWOOOW_DEMO.md                             ← Demo e-commerce Ewooow
 ├── CM_IMPIANTI.md                             ← Cliente CM-Impianti (impianti navali/industriali)
-└── [FUTURO] ALVENCO_SITO_WEB.md              ← Da creare quando si inizia il sito web
+├── STUDIO_CONSULENZE_AZIENDALI_INTEGRATE.md   ← Cliente Palermo — Studio fiscale/tributario (prospecting)
+├── [FUTURO] ALVENCO_SITO_WEB.md              ← Da creare quando si inizia il sito web
+├── FASCICOLO_ALESSANDRO_FISCELLA.md           ← Profilo personale e professionale del CTO/founder
+└── FASCICOLO_ALVENCO_LTD.md                  ← Alvenco come persona giuridica + clienti target
 ```
 
 ---
@@ -51,14 +55,20 @@
 | `ALVENCO_AZIENDA.md` | Finanziamenti, documenti, listino, pitch | ✅ Attivo |
 | `ALVENCO_MATERIALI_COMMERCIALI.md` | Prezziario, FAQ, flyer, contrattazione | ✅ Attivo |
 | `ALVENCO_LISTINO_PREZZI_2026.md` | **Listino ufficiale v2.0 £/€ — benchmark UK+IT** | ✅ Attivo — RIFERIMENTO UNICO |
+| `ALVENCO_TEMPLATE_CONTRATTO_BASE.md` | Template master con clausole standard e placeholder per nuovi contratti | ✅ Attivo |
 | `ALVENCO_TEMPLATE_CONTRATTI_RULES.md` | **Regole obbligatorie per ogni contratto** | ✅ Attivo — LEGGERE PRIMA DI OGNI CONTRATTO |
 | `ALVENCO_AI_SOCIAL.md` | Post/reel automatici su tutti i social | ✅ Attivo |
 | `ALVENCO_AI_AGENTE.md` | Agente vocale + WhatsApp + email outreach | ✅ Attivo |
-| `CIVICALERT_APP.md` | App React Native, backend Railway, build EAS | ✅ Attivo |
-| `CITTA_CHIARA.md` | App civica italiana, analisi e miglioramento | ✅ Attivo |
+| `CIVICALERT_APP.md` | App React Native CivicAlert — ⚠️ ARCHIVIATO | ⚠️ Vedi CIVIC_UNIFIED_APP.md |
+| `CITTA_CHIARA.md` | App civica italiana — ⚠️ ARCHIVIATO | ⚠️ Vedi CIVIC_UNIFIED_APP.md |
+| `CIVIC_UNIFIED_APP.md` | **App civica unificata IT+UK — monorepo AlvencoLtd — LEGGERE PRIMA** | ✅ ATTIVO |
 | `EWOOOW_DEMO.md` | Demo Next.js con design Amazon, deploy Vercel | ✅ Attivo |
+| `SAPORI_PERDUTI.md` | Sito pubblico Next.js + dashboard admin ristorante Palermo | ✅ Attivo |
 | `CM_IMPIANTI.md` | Sito/app per cliente CM-Impianti (impianti navali) | 🟡 In sviluppo |
+| `STUDIO_CONSULENZE_AZIENDALI_INTEGRATE.md` | Sito istituzionale statico per studio fiscale/tributario Palermo | 🟡 In prospecting |
 | `ALVENCO_SITO_WEB.md` | Da creare quando si inizia il sito web | ❌ Da creare |
+| `FASCICOLO_ALESSANDRO_FISCELLA.md` | Profilo personale e professionale del CTO | ✅ Attivo |
+| `FASCICOLO_ALVENCO_LTD.md` | Alvenco come persona giuridica + clienti target | ✅ Attivo |
 
 ---
 
@@ -67,7 +77,7 @@
 | Documento | File | Stato |
 |---|---|---|
 | Listino Prezzi HTML | `alvenco-listino-prezzi.html` | ✅ v1.0 (superato da v2.0) |
-| **Listino Prezzi v2.0** | `Alvenco_Listino_Prezzi_2026.docx` | ✅ v2.0 — CORRENTE |
+| **Listino Prezzi v2.1** | `Alvenco_Listino_Prezzi_2026_v2.1.docx` | ✅ v2.1 — CORRENTE (aggiunta Sezione 5: Gestione Presenza Digitale) |
 | Business Plan | `alvenco_business_plan.docx` | ✅ |
 | Pitch Innovate UK | `alvenco_innovateuk_pitch.docx` | ✅ |
 | Prezziario + FAQ | `Alvenco_Prezziario_FAQ_Contrattazione_2026.docx` | ✅ |
@@ -89,7 +99,8 @@
 7. **MAI** committare chiavi API, password o credenziali su git
 8. **Percorso locale**: `/Users/alessandrofiscella/Desktop/Progetti/ClaudesBrain/`
 9. **GitHub backup**: https://github.com/alessandro2506/AlvencoLtd
-10. **AGGIORNAMENTO FILE .md — REGOLA PERMANENTE E PRIORITARIA**: Ad ogni modifica significativa aggiornare IMMEDIATAMENTE e SEMPRE:
+10. **PRIMA DI OGNI SOLUZIONE** → porre almeno 5 domande chiave ad Alex. Contestare insieme finché la risposta è davvero la migliore. Dare sempre la soluzione più smart, elegante e semplice possibile — zero preamboli, zero papiri promozionali, sia nelle spiegazioni che nei prompt Cursor. Prima di creare qualsiasi cosa → autoanalisi critica: identificare i 3 buchi principali, i punti deboli, cosa potrebbe andare storto.
+11. **AGGIORNAMENTO FILE .md — REGOLA PERMANENTE E PRIORITARIA**: Ad ogni modifica significativa aggiornare IMMEDIATAMENTE e SEMPRE:
     - Il file `.md` corrispondente in `ClaudesBrain/`
     - Il `README.md` nella cartella del progetto in Cursor
     - Il `CLAUDE.md` master se la modifica impatta più progetti
