@@ -1,5 +1,56 @@
 # CLAUDE.md — Master Index
-> Ultimo aggiornamento: Maggio 2026 — Aggiunto STUDIO_CONSULENZE_AZIENDALI_INTEGRATE.md (nuovo cliente Palermo — studio fiscale/tributario, stato prospecting)
+> Ultimo aggiornamento: 27 Maggio 2026 — Creazione 12 skill expert in skills/ con know-how reale da sessioni Alvenco. Precedente: Scoperta operativa doppio remote + Vercel Hobby (fantauzzo-website), FANTAUZZO_WEBSITE.md, FANTAUZZO_PORTAL.md, contratto ALV-2026-005 v2.
+
+---
+
+## 📅 DATA ODIERNA — AVVIO AUTOMATICO SESSIONE
+
+> **REGOLA OBBLIGATORIA**: All'inizio di ogni sessione, Claude esegue questo script per ottenere la data aggiornata. Non fare mai affidamento alla data di training del modello.
+
+```bash
+python3 "/Users/alessandrofiscella/Desktop/Alvenco Ltd/Progetti/ClaudesBrain/current-date/scripts/get_date.py"
+```
+
+Output atteso: `Oggi è <giorno_settimana> <giorno> <mese> <anno>.`  
+Tenere questa informazione in contesto per tutta la sessione per date, scadenze e pianificazioni.
+
+> Skill: `current-date` — `/Users/alessandrofiscella/Desktop/Alvenco Ltd/Progetti/ClaudesBrain/current-date/SKILL.md`
+
+---
+
+## 🧠 SKILL EXPERT — INDICE
+
+> **REGOLA**: Prima di ogni attività tecnica o strategica, leggere la skill pertinente. Se l'attività coinvolge più domini, usare le skill in parallelo.
+
+| Skill | Path | Quando usarla |
+|---|---|---|
+| `expert-frontend` | `skills/expert-frontend/SKILL.md` | Next.js, React, Tailwind, animazioni, UI |
+| `expert-backend` | `skills/expert-backend/SKILL.md` | API, server actions, auth, tRPC, Node.js |
+| `expert-mobile` | `skills/expert-mobile/SKILL.md` | React Native, Expo, EAS, NativeWind |
+| `expert-seo` | `skills/expert-seo/SKILL.md` | Metadata, sitemap, structured data, keyword |
+| `expert-marketing` | `skills/expert-marketing/SKILL.md` | Copywriting, campagne, social, email marketing |
+| `expert-automation` | `skills/expert-automation/SKILL.md` | Make, n8n, AI agents, webhook, flussi |
+| `expert-database` | `skills/expert-database/SKILL.md` | Schema, migration, Firestore, Supabase RLS |
+| `expert-devops` | `skills/expert-devops/SKILL.md` | Vercel, GitHub, deploy, DNS, EAS Build |
+| `expert-ux-design` | `skills/expert-ux-design/SKILL.md` | Wireframe, design system, gerarchia visiva |
+| `expert-legal-contracts` | `skills/expert-legal-contracts/SKILL.md` | Contratti, preventivi, clausole GDPR, 15 clausole UK |
+| `expert-business-strategy` | `skills/expert-business-strategy/SKILL.md` | Pricing, finanziamenti, pipeline, go-to-market |
+| `expert-prompt-cursor` | `skills/expert-prompt-cursor/SKILL.md` | Generazione prompt per Cursor IDE |
+| `expert-app-development` | `skills/expert-app-development/SKILL.md` | **Architettura app, monorepo, pianificazione tecnica** |
+| `expert-critical-thinking` | `skills/expert-critical-thinking/SKILL.md` | **SEMPRE — anti-errore, riflessione prima di rispondere** |
+
+### Combinazioni Frequenti
+| Attività | Skill da usare insieme |
+|---|---|
+| Sviluppo app mobile | `expert-critical-thinking` + `expert-app-development` + `expert-mobile` + `expert-backend` + `expert-database` |
+| Sviluppo sito web completo | `expert-critical-thinking` + `expert-ux-design` → `expert-frontend` + `expert-seo` + `expert-devops` |
+| Full-stack (web) | `expert-critical-thinking` + `expert-frontend` + `expert-backend` + `expert-database` |
+| Landing page cliente | `expert-critical-thinking` + `expert-ux-design` + `expert-frontend` + `expert-seo` + `expert-marketing` |
+| Generare prompt Cursor | `expert-critical-thinking` + `expert-prompt-cursor` + skill tecnica pertinente |
+| Offerta/contratto cliente | `expert-critical-thinking` + `expert-business-strategy` + `expert-legal-contracts` + `expert-marketing` |
+| Automazione acquisizione | `expert-automation` + `expert-marketing` + `expert-business-strategy` |
+
+---
 > Questo è il file master. Contiene il contesto aziendale di Alvenco Ltd e i collegamenti a tutti i file figli per ogni progetto/chat.
 > **REGOLA**: Prima di ogni azione, leggere il file figlio corrispondente alla chat attiva. Aggiornarlo dopo ogni modifica significativa.
 
@@ -10,6 +61,7 @@
 ```
 /Users/alessandrofiscella/Desktop/Progetti/ClaudesBrain/
 ├── CLAUDE.md                                  ← Questo file (master index)
+├── ERRORI_TECNICI_RISOLTI.md                  ← ✅ NUOVO — Knowledge base bug risolti (leggere prima di ogni prompt Cursor)
 ├── ALVENCO_AZIENDA.md                         ← Strategia aziendale, finanziamenti, documenti
 ├── ALVENCO_MATERIALI_COMMERCIALI.md           ← Prezziario, FAQ, flyer, contrattazione
 ├── ALVENCO_LISTINO_PREZZI_2026.md             ← Listino ufficiale v2.0 £/€ — RIFERIMENTO UNICO
@@ -42,9 +94,12 @@
 | Sito | alvenco.co.uk (da sviluppare) |
 
 ### Struttura societaria
-- **Alessandro Fiscella** — 49% — Sviluppatore, CTO
-- **Vincenzo (socio inglese)** — 49% — Acquisizione clienti
-- **Commercialista** — 2%
+- **Alessandro Fiscella** — 33% — CTO, sviluppo, architettura, strategia prodotto
+- **Vittorio Gragnaniello** — 33% — Operazioni, esecuzione tecnica
+- **Vincenzo Sedita** — 33% — Commerciale, acquisizione clienti, UK operations
+- **Martino G.A. Cartella** — 1% — Consulente esterno, tie-breaker deadlock
+
+> Struttura aggiornata 20/05/2026. Sede legale: Flat 3, Jackson Wharf, Adderley Road, Bishop's Stortford, CM23 3AX. Shareholders' Agreement in bozza, non firmato.
 
 ---
 
@@ -52,6 +107,7 @@
 
 | File | Contenuto | Stato |
 |---|---|---|
+| `ERRORI_TECNICI_RISOLTI.md` | **Knowledge base bug risolti — leggere prima di ogni prompt Cursor** | ✅ Attivo — AGGIORNARE AD OGNI BUG RISOLTO |
 | `ALVENCO_AZIENDA.md` | Finanziamenti, documenti, listino, pitch | ✅ Attivo |
 | `ALVENCO_MATERIALI_COMMERCIALI.md` | Prezziario, FAQ, flyer, contrattazione | ✅ Attivo |
 | `ALVENCO_LISTINO_PREZZI_2026.md` | **Listino ufficiale v2.0 £/€ — benchmark UK+IT** | ✅ Attivo — RIFERIMENTO UNICO |
@@ -66,6 +122,14 @@
 | `SAPORI_PERDUTI.md` | Sito pubblico Next.js + dashboard admin ristorante Palermo | ✅ Attivo |
 | `CM_IMPIANTI.md` | Sito/app per cliente CM-Impianti (impianti navali) | 🟡 In sviluppo |
 | `STUDIO_CONSULENZE_AZIENDALI_INTEGRATE.md` | Sito istituzionale statico per studio fiscale/tributario Palermo | 🟡 In prospecting |
+| `STUDIO_FANTAUZZO.md` | Dashboard documentale doppia (studio+portale) — Rag. Fantauzzo Francesco, Palermo | 🟢 Operativo |
+| `FANTAUZZO_WEBSITE.md` | Spec complete sito istituzionale Fantauzzo per Cursor | 🟢 Pronto |
+| `FANTAUZZO_PORTAL.md` | Spec complete portale documentale Fantauzzo per Cursor | 🟢 Pronto |
+| `CURSOR_PROMPT_FANTAUZZO_WEBSITE.md` | Prompt iniziale da dare a Cursor per il sito | 🟢 Pronto |
+| `CURSOR_PROMPT_FANTAUZZO_PORTAL.md` | Prompt iniziale da dare a Cursor per il portale | 🟢 Pronto |
+| `tuzzolino-web/TUZZOLINO.md` | Sito vetrina pro + blog auto Instagram per educatore cinofilo Palermo | 🟡 Proposta |
+| `handyman-stortford/HANDYMAN_STORTFORD.md` | Sito Next.js 15 per handyman Pasquale Rocchida — Bishop's Stortford UK | 🟡 In sviluppo |
+| `PF_TRASLOCHI.md` | Sito vetrina + form preventivo per P.F. Traslochi — Palermo | 🟡 In prospecting |
 | `ALVENCO_SITO_WEB.md` | Da creare quando si inizia il sito web | ❌ Da creare |
 | `FASCICOLO_ALESSANDRO_FISCELLA.md` | Profilo personale e professionale del CTO | ✅ Attivo |
 | `FASCICOLO_ALVENCO_LTD.md` | Alvenco come persona giuridica + clienti target | ✅ Attivo |
@@ -93,21 +157,38 @@
 1. **Prima di ogni contratto** → leggere `ALVENCO_TEMPLATE_CONTRATTI_RULES.md`
 2. **Prima di ogni preventivo** → usare `ALVENCO_LISTINO_PREZZI_2026.md` come riferimento unico
 3. **Prima di ogni azione** → leggere il file figlio della chat attiva
-4. **Dopo ogni modifica** → aggiornare il file figlio con le novità
-5. **Nuovo progetto/chat** → creare un nuovo file figlio e aggiungerlo all'indice sopra
-6. **Doppia valuta** → listino in £ GBP primario, € EUR secondario (cambio £1=€1.17 Aprile 2026)
+4. **SOLO GBP (£) — REGOLA VALUTA UNICA**: tutti i contratti e preventivi usano esclusivamente £ GBP. Per clienti IT/EU: aggiungere solo una nota a piè di pagina "importo indicativo in EUR al cambio del giorno di firma" — MAI importi EUR nelle tabelle o nel corpo del documento.
+5. **Dopo ogni modifica** → aggiornare il file figlio con le novità
+6. **Nuovo progetto/chat** → creare un nuovo file figlio e aggiungerlo all'indice sopra
 7. **MAI** committare chiavi API, password o credenziali su git
-8. **Percorso locale**: `/Users/alessandrofiscella/Desktop/Progetti/ClaudesBrain/`
+8. **Percorso locale**: `/Users/alessandrofiscella/Desktop/Alvenco Ltd/Progetti/ClaudesBrain/`
 9. **GitHub backup**: https://github.com/alessandro2506/AlvencoLtd
-10. **PRIMA DI OGNI SOLUZIONE** → porre almeno 5 domande chiave ad Alex. Contestare insieme finché la risposta è davvero la migliore. Dare sempre la soluzione più smart, elegante e semplice possibile — zero preamboli, zero papiri promozionali, sia nelle spiegazioni che nei prompt Cursor. Prima di creare qualsiasi cosa → autoanalisi critica: identificare i 3 buchi principali, i punti deboli, cosa potrebbe andare storto.
-11. **AGGIORNAMENTO FILE .md + REPO — REGOLA PERMANENTE E PRIORITARIA**: Ad ogni modifica significativa aggiornare IMMEDIATAMENTE e SEMPRE:
-    - Il file `.md` corrispondente in `ClaudesBrain/`
-    - Il `README.md` nella cartella del progetto in Cursor
-    - Il `CLAUDE.md` master se la modifica impatta più progetti
-    - **La repository GitHub `https://github.com/alessandro2506/AlvencoLtd` deve essere sempre allineata al locale** — dopo ogni modifica ai file `.md` eseguire: `git add . && git commit -m "..." && git push origin main`
-    - Questo vale per TUTTI i progetti senza eccezioni: sito Alvenco, CivicAlert, Città Chiara, Ewooow, clienti, ecc.
+10. **⚠️ AVVIO SESSIONE NUOVO PROGETTO — OBBLIGATORIO**: Prima di ogni soluzione su un nuovo progetto → porre almeno 5 domande chiave ad Alex. Contestare insieme finché la risposta è davvero la migliore. Dare sempre la soluzione più smart, elegante e semplice — zero preamboli, zero papiri. Prima di creare qualsiasi cosa → autoanalisi critica: identificare i 3 buchi principali, i punti deboli, cosa potrebbe andare storto.
+11. **SCROLL-TO-TOP EFFETTO RING — REGOLA GLOBALE**: componente scroll-to-top con effetto ring al click OBBLIGATORIO in tutti i siti futuri Alvenco. Da includere in ogni prompt Cursor per nuovi siti.
+12. **AGGIORNAMENTO FILE .md + REPO — REGOLA PERMANENTE E PRIORITARIA**:
+    - Il file `.md` corrispondente in `ClaudesBrain/` va aggiornato ad ogni modifica significativa
+    - Il `README.md` nella cartella del progetto in Cursor va aggiornato ad ogni modifica significativa
+    - Il `CLAUDE.md` master va aggiornato se la modifica impatta più progetti
+    - **FLUSSO OBBLIGATORIO PER NUOVI PROGETTI CLIENT**: (1) crea file `.md` + aggiorna `CLAUDE.md` → (2) genera prompt Cursor → (3) Cursor sviluppa → (4) aggiorna file `.md` con struttura progetto reale → (5) **UN SOLO push GitHub** che include tutto. MAI pushare dopo il passo 1 e poi di nuovo dopo il passo 4 — è doppio lavoro inutile.
+    - **GitHub ClaudesBrain**: `https://github.com/alessandro2506/AlvencoLtd` — push unico a fine ciclo completo
+    - **GitHub progetti client**: creare repo in `https://github.com/orgs/AlvencoLtd/repositories` (org Alvenco), poi collegare su Vercel
     - **Non aspettare la fine della sessione** — aggiornare durante la sessione stessa
-    - **Scopo**: evitare perdita di contesto, non ripetere errori già risolti, documentazione sempre allineata al codice reale
+    - **Scopo**: evitare perdita di contesto, non ripetere errori già risolti, zero doppio lavoro
+13. **FLUSSO OBBLIGATORIO NUOVO PROGETTO CLIENT — SEQUENZA FISSA**:
+    1. Crea cartella progetto in `/Users/alessandrofiscella/Desktop/Alvenco Ltd/Progetti/[nome-progetto]/`
+    2. Scrivi file `[NOME].md` nella cartella appena creata (usa TEMPLATE_NUOVO_PROGETTO.md come base)
+    3. Aggiorna `CLAUDE.md`: riga changelog in testa + riga nella tabella FILE FIGLI
+    4. Il prompt Cursor DEVE iniziare con: `Leggi il file: /Users/alessandrofiscella/Desktop/Alvenco Ltd/Progetti/[nome-progetto]/[NOME].md` + `Leggi il file: /Users/alessandrofiscella/Desktop/Alvenco Ltd/Progetti/ClaudesBrain/ERRORI_TECNICI_RISOLTI.md`
+    5. Cursor sviluppa → aggiorna il `.md` con struttura reale e avanzamento
+    6. **GitHub — DOPPIO REMOTE OBBLIGATORIO**:
+       - Remote `origin` → `https://github.com/alessandro2506/[nome-progetto]` (account personale, privato) — remote principale per Vercel Hobby
+       - Remote `alvenco` → `https://github.com/AlvencoLtd/[nome-progetto]` (org Alvenco, privato) — archivio sincronizzato
+       - **AlvencoLtd-site**: doppio remote configurato e verificato il 27/05/2026 ✅
+       - Ogni push: `git push origin main && git push alvenco main`
+       - Vercel: importare SEMPRE da `alessandro2506/[nome-progetto]` — Vercel Hobby non supporta repo privati di org GitHub
+    7. Push GitHub unico a fine ciclo completo
+    - **Questa sequenza è automatica — Alex non deve richiederla ad ogni nuovo progetto**
+14. **PUSH SITO ALVENCO — REGOLA PERMANENTE**: Prima di ogni `git push` sul repo AlvencoLtd-site, eseguire sempre `git pull --rebase origin main`. Flusso corretto: `git add -A` → `git commit` → `git pull --rebase origin main` → `git push`.
 
 ---
 

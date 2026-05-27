@@ -13,7 +13,7 @@
 |---|---|
 | Ragione sociale | Alvenco Ltd |
 | Forma giuridica | Private Limited Company (Ltd) — England & Wales |
-| Sede legale | Bishop's Stortford, Hertfordshire, CM23 |
+| Sede legale | Flat 3, Jackson Wharf, Adderley Road, Bishop's Stortford, CM23 3AX |
 | Email principale | hello@alvencoltd.co.uk |
 | Email no-reply | no-reply@alvencoltd.co.uk |
 | Telefono | +44 7754 812247 |
@@ -26,11 +26,14 @@
 
 ## Struttura Societaria
 
-| Socio | Quota | Ruolo |
-|---|---|---|
-| Alessandro Fiscella | 49% | CTO, sviluppo, architettura, strategia prodotto |
-| Vincenzo | 49% | Commerciale, acquisizione clienti, UK operations |
-| Commercialista | 2% | Gestione contabile e legale |
+| Socio | Quota | Azioni | Ruolo |
+|---|---|---|---|
+| Alessandro Fiscella | 33% | 33/100 | CTO, sviluppo, architettura, strategia prodotto |
+| Vittorio Gragnaniello | 33% | 33/100 | Operazioni, esecuzione tecnica (ruolo simile ad Alessandro) |
+| Vincenzo Sedita | 33% | 33/100 | Commerciale, acquisizione clienti, UK operations — **Firmatario ufficiale Alvenco Ltd** — Titolo firma: *Co-Founder & Commercial Director* |
+| Martino G.A. Cartella | 1% | 1/100 | Consulente esterno, tie-breaker in caso di deadlock |
+
+> **Nota**: Struttura aggiornata al 20/05/2026 dopo accordo tra i soci. Shareholders' Agreement in bozza — non ancora firmato.
 
 ---
 
@@ -97,7 +100,18 @@ Aziende europee (Germania, altri mercati) o extra-EU che cercano un partner digi
 | EAS/Expo | Build e OTA update app mobile |
 | GitHub | Versionamento e backup ClaudesBrain |
 
-### Documentazione
+### Asset Logo (aggiornati 21/05/2026)
+
+| File | Quando usarlo |
+|---|---|
+| `alvenco_logo.svg` / `alvenco_logo.png` | Sfondo **scuro** (dark navy, nero, gradiente scuro) |
+| `alvenco_logo_black_text.svg` / `alvenco_logo_black_text.png` | Sfondo **chiaro** (bianco, grigio chiaro, carta intestata) |
+
+> I vecchi file logo sono stati eliminati. Usare esclusivamente questi 4 asset da `/Users/alessandrofiscella/Desktop/Alvenco Ltd/Documenti Importanti/` o dagli upload della sessione corrente.
+
+---
+
+## Documentazione
 - **Base obbligatoria tutti i documenti:** `Alvenco CartaIntestata Template.docx`
 - **Listino ufficiale:** `Alvenco_Listino_Prezzi_2026_v2.1.docx`
 - **Template contratto:** `Alvenco Template Contratto v2 WithLogo.docx`
@@ -107,23 +121,26 @@ Aziende europee (Germania, altri mercati) o extra-EU che cercano un partner digi
 
 ## Clienti Attivi
 
-| Cliente | Tipo | Stato | Note |
-|---|---|---|---|
-| Sapori Perduti | Ristorante, Palermo | ✅ Contratto firmato | Sito + dashboard live su Vercel |
-| CM Impianti | Impianti navali/industriali | 🟡 Preventivo inviato | Presentazione Figma prodotta |
-| Autoservizi Sedita | Trasporto passeggeri, Sicilia | 🟡 Preventivo inviato | Preventivo .docx 11 sezioni consegnato |
+| Cliente | Tipo | Stato Commerciale | Progetti | Note |
+|---|---|---|---|---|
+| **Sapori Perduti** | Ristorante, Palermo | ✅ Contratto firmato | 1. Sito pubblico Next.js (live) — 2. Dashboard admin (live) — 3. App mobile (bozza) | Sito + dashboard live su Vercel. App in fase preliminare. |
+| **CM Impianti** | Impianti navali/industriali, Palermo/Gela | 🟡 Preventivo inviato — nessuna risposta | 1. Sito corporate Next.js 15 (bozza) — 2. Presentazione prima/dopo PDF | Demo prodotta. In attesa risposta cliente. Preventivo v2 £5.100 / €5.967. |
+| **Autoservizi Sedita** | Trasporto passeggeri, Sicilia | 🟡 In fase preliminare | 1. Sito vetrina bilingue IT/EN Next.js (bozza) | Preventivo creato, non inviato. |
+| **P.F. Traslochi** | Traslochi/trasporti, Palermo | 🟡 In fase preliminare | 1. Sito vetrina + form preventivo Next.js (bozza completa) | Preventivo creato, non inviato. Sviluppo completato in attesa di contratto + deploy. |
+| **Studio A.C.A.I.** | Consulenza fiscale/tributaria, Palermo | 🟡 In fase preliminare | 1. Sito istituzionale Astro (demo live) | Demo su Vercel. Proposta email pronta da inviare. Preventivo non ancora creato. |
+| **AlmaHotel** | Hospitality | 🟡 In fase preliminare | 1. Sito hotel (bozza) | Da contattare. |
+| **Casa Buffa Sicily** | Turismo/immobiliare | 🟡 In fase preliminare | 1. Sito (da avviare) | Da contattare. |
+| **NTC Consulting** | Consulenza | 🟡 In fase preliminare | 1. Sito (da avviare) | Da contattare. |
+| **Veterinario Dr. Monte** | Sanità | 🟡 In fase preliminare | 1. Sito (da avviare) | Da contattare. |
 
 ---
 
 ## Pipeline Commerciale
 
-| Prospect | Settore | Prossimo step |
-|---|---|---|
-| Marco Intrivici | Edilizia/pittura, Germania | Audit sito inviato, attendere risposta |
-| AlmaHotel | Hospitality | Da contattare |
-| Casa Buffa Sicily | Turismo/immobiliare | Da contattare |
-| NTC Consulting | Consulenza | Da contattare |
-| Veterinario Dr. Monte | Sanità | Da contattare |
+| Prospect | Settore | Stato | Note |
+|---|---|---|---|
+| **QuickFix / Handyman Stortford** | Manutenzione immobiliare, UK | 🔴 KO | Non diventerà cliente Alvenco. |
+| Marco Intrivici | Edilizia/pittura, Germania | 🟡 In attesa | Audit sito inviato, attendere risposta. |
 
 ---
 
@@ -185,4 +202,9 @@ Sconto 20–50% in base alla complessità del progetto. Scadenza: 30 giugno 2026
 
 | Data | Modifica |
 |---|---|
+| 21/05/2026 | Firmatario ufficiale cambiato da Alessandro Fiscella a **Vincenzo Sedita** — titolo firma: *Co-Founder & Commercial Director*. |
+| 21/05/2026 | Regola loghi aggiornata: 4 asset ufficiali (scuro/chiaro), vecchi eliminati. |
+| 20/05/2026 | Cognome Vittorio completato: Gragnaniello. Sede legale aggiornata: Flat 3, Jackson Wharf, Adderley Road, Bishop's Stortford, CM23 3AX. |
+| 20/05/2026 | Struttura societaria aggiornata: da 49/49/2 a 33/33/33/1. Nuovi soci: Vittorio [TBD] 33%, Martino G.A. Cartella 1%. Shareholders' Agreement in bozza, non firmato. Cognome Vittorio da completare. |
+| 19/05/2026 | Aggiornamento completo fascicolo: clienti attivi riallineati (Sapori Perduti con 3 progetti, CM Impianti, Sedita, P.F. Traslochi, Studio A.C.A.I., AlmaHotel, Casa Buffa, NTC, Dr. Monte). QuickFix/Handyman marcato KO. Pipeline commerciale aggiornata. |
 | Maggio 2026 | Creazione fascicolo — sessione fondativa, struttura completa |

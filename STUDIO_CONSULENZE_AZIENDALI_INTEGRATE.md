@@ -143,7 +143,7 @@ Istituzionale premium — stile studio notarile/legale moderno. Bianco/navy/oro.
 | Ricerca e fascicolo cliente | ✅ Completato | Via Perplexity |
 | File .md ClaudesBrain | ✅ Creato | Questo file |
 | Sviluppo sito (demo) | ✅ Completato | Build Astro senza errori — vedi struttura sotto |
-| **Proposta commerciale (email)** | 🔴 **DA INVIARE** | — |
+| **Proposta commerciale (email)** | 🟡 **PRONTA DA INVIARE** | Template approvato — inviare da Aruba con PDF allegato |
 | Accettazione proposta | ⬜ In attesa | — |
 | Preventivo .docx | ⬜ Da generare | Solo dopo accettazione — usare carta intestata Alvenco |
 | Contratto | ⬜ Da generare | Template Alvenco v2 |
@@ -206,10 +206,48 @@ src/
 
 ---
 
-## 12. CHANGELOG
+## 12. EMAIL PROPOSTA COMMERCIALE — TEMPLATE APPROVATO
+
+> Fac-simile riutilizzabile per futuri clienti senza presenza digitale.
+> Inviare sempre da `hello@alvencoltd.co.uk` via Aruba — mai da Gmail personale.
+
+**Oggetto:** Proposta di presenza digitale per [Nome Studio] — Alvenco Ltd
+
+---
+
+Spettabile [Nome Studio],
+la contattiamo da Alvenco Ltd, studio specializzato nello sviluppo di siti web e soluzioni digitali per aziende e professionisti.
+
+Uno studio con oltre [X] anni di attività sul territorio [città] merita una presenza digitale all’altezza della propria storia. Ad oggi, la vostra visibilità online si limita alla sola scheda Google Business — un gap che, nel contesto attuale, rischia di penalizzare la percezione del vostro studio rispetto a realtà più recenti ma più presenti sul web.
+
+La nostra proposta è semplice: un sito istituzionale professionale, collegato alla vostra scheda Google Business, che trasformi la vostra continuità e reputazione in un asset digitale ancor più concreto e duraturo.
+
+Troverà tutto il dettaglio nel documento allegato.
+
+Restiamo a disposizione per un primo contatto, senza impegno, per rispondere a qualsiasi domanda e illustrare i prossimi passi, qualora fosse di vostro interesse.
+
+In attesa di un Vostro gentile riscontro.
+
+Cordiali saluti,
+
+Alessandro Fiscella
+CTO — Alvenco Ltd
+hello@alvencoltd.co.uk
++44 7754 812247
+alvenco.co.uk
+
+---
+
+> **Variabili da sostituire:** `[Nome Studio]` — `[X]` anni attività — `[città]`
+> **Allegato:** Presentazione PDF Alvenco dedicata al cliente
+
+---
+
+## 13. CHANGELOG
 
 | Data | Aggiornamento |
 |---|---|
 | 2026-05-12 | File creato. Anagrafica, stack, architettura, design system, pipeline commerciale definiti. Stato: IN PROSPECTING. |
 | 2026-05-12 | Build Astro completata senza errori. Struttura progetto, checklist go-live aggiunte. Pipeline aggiornata. |
 | 2026-05-12 | Deploy Vercel attivo: https://studio-consulenze-web.vercel.app/ — Fix nome studio: TODO → Studio A.C.A.I. su tutti i meta e copy. |
+| 2026-05-12 | Template email proposta commerciale approvato e salvato. Pipeline aggiornata. |
