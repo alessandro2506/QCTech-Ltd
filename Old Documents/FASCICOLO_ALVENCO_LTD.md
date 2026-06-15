@@ -1,9 +1,9 @@
-# FASCICOLO — ALVENCO LTD (Persona Giuridica)
-> Creato: Maggio 2026 | Aggiornare dopo ogni modifica significativa all'azienda
+# FASCICOLO — QUANTUM CODE TECHNOLOGIES LTD (Persona Giuridica)
+> Creato: Maggio 2026 | Aggiornato: 01 Giugno 2026 — REBRANDING DEFINITIVO da Alvenco Ltd
 
 ---
 
-> **Nota:** Per "persona giuridica" si intende un soggetto di diritto distinto dalle persone fisiche che lo compongono, dotato di capacità giuridica propria. Alvenco Ltd può stipulare contratti, possedere asset, essere titolare di obblighi e diritti in nome proprio — separata legalmente dai suoi soci.
+> **Nota:** Per "persona giuridica" si intende un soggetto di diritto distinto dalle persone fisiche che lo compongono, dotato di capacità giuridica propria. Quantum Code Technologies Ltd può stipulare contratti, possedere asset, essere titolare di obblighi e diritti in nome proprio — separata legalmente dai suoi soci.
 
 ---
 
@@ -11,16 +11,18 @@
 
 | Campo | Valore |
 |---|---|
-| Ragione sociale | Alvenco Ltd |
+| Ragione sociale | **Quantum Code Technologies Ltd** |
+| Nome breve | **QC Tech** (NON QCT) |
+| ~~Vecchio nome~~ | ~~Alvenco Ltd~~ — OBSOLETO |
 | Forma giuridica | Private Limited Company (Ltd) — England & Wales |
 | Sede legale | Flat 3, Jackson Wharf, Adderley Road, Bishop's Stortford, CM23 3AX |
-| Email principale | hello@alvencoltd.co.uk |
-| Email no-reply | no-reply@alvencoltd.co.uk |
+| Email principale | hello@alvencoltd.co.uk (da aggiornare con nuovo dominio) |
+| Email no-reply | no-reply@alvencoltd.co.uk (da aggiornare) |
 | Telefono | +44 7754 812247 |
 | WhatsApp Business | +44 7754 812247 |
-| Sito web | alvencoltd.co.uk |
-| GitHub | github.com/Alessandro2506/alvenco-demo (sito) |
-| GitHub Brain | github.com/Alessandro2506/AlvencoLtd |
+| Sito web | alvencoltd.co.uk → da migrare a nuovo dominio |
+| GitHub | github.com/Alessandro2506/AlvencoLtd-site (da rinominare) |
+| GitHub Brain | github.com/Alessandro2506/AlvencoLtd (da rinominare) |
 
 ---
 
@@ -198,13 +200,16 @@ Sconto 20–50% in base alla complessità del progetto. Scadenza: 30 giugno 2026
 
 ---
 
+## Rebranding — COMPLETATO
+
+> **Stato al 01/06/2026:** Nome definitivo deliberato dai soci: **Quantum Code Technologies Ltd** (nome breve: **QC Tech**). Alvenco Ltd e Gravion Ltd sono OBSOLETI e non devono mai essere usati. Quantum Code Technologies (QCT) come abbreviazione è errata — usare sempre QC Tech.
+> **Da fare:** acquisto nuovo dominio (domani), migrazione sito, aggiornamento email, GitHub repos, Bark, Clutch, Search Console.
+
+---
+
 ## Changelog
 
 | Data | Modifica |
 |---|---|
-| 21/05/2026 | Firmatario ufficiale cambiato da Alessandro Fiscella a **Vincenzo Sedita** — titolo firma: *Co-Founder & Commercial Director*. |
-| 21/05/2026 | Regola loghi aggiornata: 4 asset ufficiali (scuro/chiaro), vecchi eliminati. |
-| 20/05/2026 | Cognome Vittorio completato: Gragnaniello. Sede legale aggiornata: Flat 3, Jackson Wharf, Adderley Road, Bishop's Stortford, CM23 3AX. |
-| 20/05/2026 | Struttura societaria aggiornata: da 49/49/2 a 33/33/33/1. Nuovi soci: Vittorio [TBD] 33%, Martino G.A. Cartella 1%. Shareholders' Agreement in bozza, non firmato. Cognome Vittorio da completare. |
-| 19/05/2026 | Aggiornamento completo fascicolo: clienti attivi riallineati (Sapori Perduti con 3 progetti, CM Impianti, Sedita, P.F. Traslochi, Studio A.C.A.I., AlmaHotel, Casa Buffa, NTC, Dr. Monte). QuickFix/Handyman marcato KO. Pipeline commerciale aggiornata. |
-| Maggio 2026 | Creazione fascicolo — sessione fondativa, struttura completa |
+| 01/06/2026 | **REBRANDING DEFINITIVO** — Alvenco Ltd → Quantum Code Technologies Ltd (QC Tech). Aggiornati CLAUDE.md e FASCICOLO. |
+| 27/05/2026 | Firmatario ufficiale: Vincenzo Sedita — Co-Founder & Commercial Director. Regola loghi 4 asset. |
