@@ -89,27 +89,29 @@
 
 ---
 
-## 4. SITO WEB QC TECH — IN MIGRAZIONE
+## 4. SITO WEB QC TECH — LIVE
 
-**Stato**: 🔄 Migrazione da alvencoltd.co.uk a qc-tech.co.uk
-- Dominio: qc-tech.co.uk (da acquistare/configurare)
-- Email: hello@qc-tech.co.uk
-- Linguaggio: inglese (mercato UK)
-- Design: dark navy/gold in linea con identità visiva QC Tech
+**Stato**: ✅ Live su qc-tech.co.uk
+- Email configurate: hello@, no-reply@, postmaster@qc-tech.co.uk
+- Google Search Console: 🟡 da aggiornare (punta ancora ad alvencoltd.co.uk → redirect a qc-tech.co.uk)
 
 ---
 
 ## 5. TODO — PROSSIMI PASSI AZIENDALI
 
-- [ ] Acquistare dominio qc-tech.co.uk
-- [ ] Configurare email hello@qc-tech.co.uk
-- [ ] Migrare sito da alvencoltd.co.uk a qc-tech.co.uk
-- [ ] Aggiornare GitHub repos con nuovo nome
+- [ ] Consegnare codice Companies House al commercialista
+- [x] Configurare email hello@qc-tech.co.uk ✅
+- [x] Migrare sito a qc-tech.co.uk ✅
+- [ ] Aggiornare Google Search Console (sitemap, nome, nuove pagine)
+- [ ] Aggiornare profilo Bark.com a QC Tech
+- [ ] Aggiornare profilo Clutch.co a QC Tech
+- [ ] Creare Google Business Profile (dopo apertura Companies House)
 - [ ] Richiedere Start Up Loan su www.startuploans.co.uk
 - [ ] Contattare Hertfordshire Growth Hub
-- [ ] Visitare Launchpad Bishop's Stortford
-- [ ] Ottenere lettera di supporto da East Herts District Council (per Innovate UK)
-- [ ] Richiedere SEIS Advance Assurance a HMRC (quando si cerca investment)
+- [ ] Firmare Shareholders' Agreement tra i 4 soci
+
+> Innovate UK Grant: sospeso fino a app CivicAlert più avanzata.
+> Alfa S.r.l.s.: archiviata. Innovator Founder Visa: abbandonato → percorso EUSS.
 
 ---
 
@@ -119,3 +121,4 @@
 |---|---|
 | Aprile 2026 | File creato come ALVENCO_AZIENDA.md |
 | 4 Giugno 2026 | Rinominato in QCTECH_AZIENDA.md — rebranding QC Tech. Aggiornati tutti i riferimenti Alvenco → QC Tech / Quantum Code Technologies. Piani manutenzione aggiornati al listino v2.2. |
+| 15/06/2026 | Aggiornato: sito live, email configurate, todo aggiornati. Innovate UK sospeso. Alfa SRLS archiviata. Innovator Visa abbandonato. |

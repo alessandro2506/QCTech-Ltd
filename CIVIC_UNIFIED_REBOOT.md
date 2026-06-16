@@ -388,7 +388,7 @@ Nessuna segnalazione raggiunge la dashboard dell'autorità senza aver superato i
 
 ---
 
-## 14. STATO CORRENTE (07 June 2026)
+## 14. STATO CORRENTE (15 June 2026)
 
 ### Completato
 - Monorepo `civic-unified` creato con Turborepo e npm workspaces
@@ -409,8 +409,14 @@ Nessuna segnalazione raggiunge la dashboard dell'autorità senza aver superato i
 
 ### Bloccanti aperti
 
-**Unico blocco aperto — Step 8**
-EAS build Android demo da eseguire quando tutte le feature sono verificate su device.
+**Bug critico — Foto non visibile nelle dashboard (entrambe)**
+Quando vengono inviate le segnalazioni, nella dashboard compare solo il riquadro vuoto al posto della foto. Il media non viene renderizzato. Da investigare e fixare prima di procedere allo Step 8.
+
+**Grafica app mobile — da rivedere**
+Le parti grafiche delle app mobili (entrambi i brand) vanno revisionate prima dello Step 8.
+
+**Step 8 — EAS build Android demo**
+Da eseguire solo dopo: (1) fix foto dashboard, (2) revisione grafica app.
 
 ### Step operativi da completare (sequenza)
 - [x] Fix P0 tRPC
@@ -420,7 +426,9 @@ EAS build Android demo da eseguire quando tutte le feature sono verificate su de
 - [x] Step 5: EAS update preview pubblicato (update group 90e58003) — login Google testato e funzionante su device
 - [x] Step 6: Dashboard UK live — `civicalert-dashboard.vercel.app` — Next.js 16, RBAC, lista segnalazioni, mappa, dettaglio, gestione stati, riga report cliccabile, location fallback GPS, ora accanto alla data
 - [x] Step 7: Dashboard IT live — `citta-chiara-dashboard.vercel.app` — italiano, palette #1A3F7F/#0D2240/#C8102E, Supabase `ljbrmoozwrqrbuldmbez`, stesse feature UK localizzate. Fix mobile: riga report completamente cliccabile per tutti gli stati
-- [ ] Step 8: EAS build Android demo (consuma 1 delle 15 build mensili disponibili)
+- [ ] **BUG FIX**: Foto segnalazioni non visibile nelle dashboard (entrambe) — compare solo riquadro vuoto
+- [ ] **Revisione grafica app mobile** — entrambi i brand (CivicAlert UK + Città Chiara IT)
+- [ ] Step 8: EAS build Android demo — solo dopo fix foto + revisione grafica (consuma 1 delle 15 build mensili disponibili)
 
 ### URL produzione
 | Prodotto | URL |
@@ -443,6 +451,7 @@ EAS build Android demo da eseguire quando tutte le feature sono verificate su de
 | ERR-P0 | tRPC HTTP 500 su Vercel — ESM/CJS conflict `jose` | RISOLTO | Dynamic import in `api/index.ts` + `"type":"module"` in `package.json` |
 | ERR-AUTH-01 | Google OAuth: `redirectTo` sbagliato → browser mostra bundle JS Vercel | RISOLTO | redirectTo: cittachiara://oauth/callback (EAS) / exp-cittachiara://oauth/callback (Expo Go) |
 | ERR-DB-01 | Drizzle push fallisce con `TypeError: Cannot read properties of undefined (reading 'replace')` | RISOLTO | DROP CHECK constraints via PL/pgSQL DO block su Supabase |
+| ERR-DASH-01 | Foto segnalazioni non visibile nelle dashboard — compare solo riquadro vuoto | APERTO | Da investigare |
 
 ---
 
@@ -478,6 +487,7 @@ I test avvengono esclusivamente tramite Expo Go e `eas update --branch preview`.
 |---|---|
 | Maggio 2026 | Sessione fondativa: creazione monorepo, decisioni strategiche core, fix P0 tRPC, build Android preview, Google OAuth identificato come blocco aperto |
 | 07 June 2026 v2.4 | Protocollo checkpoint reso automatico e obbligatorio per frequenza (dopo ogni unità atomica) — non più legato alla soglia di contesto. Aggiunta dichiarazione unità atomiche obbligatoria a inizio sessione. Perdita massima per interruzione limitata all'unità corrente. |
+| 15/06/2026 v2.5 | Aggiornati bloccanti: (1) BUG foto dashboard — riquadro vuoto su entrambe le dashboard (ERR-DASH-01); (2) revisione grafica app mobile entrambi i brand. Step 8 EAS build condizionato al completamento di entrambi. |
 | 07 June 2026 v2.3 | Aggiornato stato corrente post-sessione Claude Code: Step 4/5/6/7 completati. Dashboard UK e IT live. Fix OAuth, fix riga cliccabile mobile, fix location fallback, fix ora nei report (verificare deployment). ERR-AUTH-01 marcato RISOLTO. Step 8 unico step rimanente. |
 | 06 June 2026 v2.2 | Rimossi tutti i riferimenti a Cursor — strumento di implementazione è Claude Code. Aggiunto protocollo Claude Code completo: avvio sessione, unità atomiche, chiusura sicura per soglia di utilizzo, ripresa post-soglia, fonte di verità Git + MD. Aggiornate regole operative di conseguenza. |
 | 06 June 2026 v2.1 | Aggiunti: validazione metadati GPS (Layer 5 pre-screen), mappa pubblica con logica stati pin, notifiche opt-in Opzione B (categoria + raggio, default disattivate, solo safety-critical attivabili). Aggiornati flussi Step 4/5/6/7 e flusso dashboard→app con propagazione mappa pubblica. |
