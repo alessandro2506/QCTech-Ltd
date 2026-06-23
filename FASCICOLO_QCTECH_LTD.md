@@ -29,11 +29,11 @@
 
 | Socio | Quota | Azioni | Ruolo |
 |---|---|---|---|
-| Alessandro Fiscella | 33% | 33/100 | CTO, sviluppo, architettura, strategia prodotto |
-| Vittorio Gragnaniello | 33% | 33/100 | Operazioni, esecuzione tecnica |
-| Vincenzo Sedita | 33% | 33/100 | Commerciale, acquisizione clienti, UK operations — **Firmatario ufficiale QC Tech** — Titolo firma: *Co-Founder & Commercial Director* |
-| Martino G.A. Cartella | 1% | 1/100 | Consulente esterno, tie-breaker in caso di deadlock |
+| Alessandro Fiscella | 49% | 49/100 | CTO, sviluppo, architettura, strategia prodotto |
+| Vincenzo Sedita | 49% | 49/100 | Commerciale, acquisizione clienti, UK operations — **Firmatario ufficiale QC Tech** — Titolo firma: *Co-Founder & Commercial Director* |
+| Martino G.A. Cartella | 2% | 2/100 | Consulente esterno, tie-breaker in caso di deadlock |
 
+> Vittorio Gragnaniello NON è più socio (giugno 2026), sua quota 33% rimossa dalla cap table. È prevista una scrittura privata separata: possibilità di rientro futuro con quota 33%, condizionata alla dimostrazione di partecipazione operativa equa e continuativa (riunioni interne, attività operative) negli orari liberi/weekend, fuori dall'orario del suo lavoro dipendente — per evitare conflitto con quel rapporto di lavoro.
 > Shareholders' Agreement in bozza — non ancora firmato.
 
 ---
@@ -206,3 +206,4 @@ Sconto 20–50% sviluppo. Scadenza: 30 giugno 2026.
 | 01/06/2026 | Rebranding definitivo — Quantum Code Technologies Ltd (QC Tech) |
 | 04/06/2026 | Rinominato FASCICOLO_QCTECH_LTD.md. Tutti i riferimenti Alvenco → QC Tech aggiornati. |
 | 15/06/2026 | Aggiornamento completo: email configurate (hello, no-reply, postmaster), pipeline clienti aggiornata (Sapori Perduti e AlmaHotel archiviati, Autoservizi Sedita variazioni preventivo, Fantauzzo stato reale, ACAI follow-up nov 2026), Google Search Console da aggiornare, Bark/Clutch da rifare, Innovator Visa abbandonato → EUSS, Alfa SRLS archiviata. |
+| 17/06/2026 | Cap table aggiornata: Alessandro Fiscella 49%, Vincenzo Sedita 49%, Martino G.A. Cartella 2%. Vittorio Gragnaniello rimosso dalla struttura societaria — prevista scrittura privata separata per eventuale rientro futuro con quota 33%, condizionato a partecipazione operativa dimostrata. |

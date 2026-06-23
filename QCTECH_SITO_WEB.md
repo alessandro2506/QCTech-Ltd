@@ -140,7 +140,8 @@ Clienti il cui rapporto commerciale è terminato ma di cui si può citare il set
 - [x] GA4 attivo con nuovo Measurement ID G-EK5XQ10BZP — verificato in tempo reale (16/06/2026) ✅
 - [ ] Aggiornare profili Bark.com e Clutch.co a QC Tech
 - [ ] Aggiornare Google Business Profile (dopo apertura Companies House)
-- [ ] Aggiornare WhatsApp Business con nuovo nome QC Tech
+- [x] WhatsApp Business aggiornato a QC Tech (nome + logo) ✅
+- [x] alvenco-demo.vercel.app rimosso da Vercel ✅
 - [x] Aggiornare sezione clienti/settori sul sito ✅ (Blocco A: collaborazioni attive, Blocco B: settori in cui abbiamo operato)
 
 ---
@@ -152,4 +153,4 @@ Clienti il cui rapporto commerciale è terminato ma di cui si può citare il set
 | Aprile 2026 | File creato come ALVENCO_SITO_WEB.md |
 | Giugno 2026 | Rinominato in QCTECH_SITO_WEB.md — rebranding QC Tech. Aggiornati tutti i riferimenti. Aggiunta checklist migrazione dominio. |
 | 15/06/2026 | Sito live confermato. Repo corretti. Aggiunta logica sezione clienti/ex-clienti (Sezione 8). Aggiunto stato Google Search Console (Sezione 9). Checklist migrazione aggiornata. |
-| 16/06/2026 | Aggiunti 4 nuovi settori al Blocco B: B&B & Accommodation, Sport & Football Academy, Fine Dining, Food Delivery. Totale Blocco B: 6 settori. Google Search Console verificato (meta tag). GA4 nuova proprietà QC Tech creata, Measurement ID G-EK5XQ10BZP installato e verificato in tempo reale. |
+| 19/06/2026 | GA4 generate_lead event su form contatti. CTA Banner su tutte le pagine interne. Social proof + WhatsApp su pagina contatti. Env vars Vercel aggiornate da alvencoltd.co.uk a qc-tech.co.uk (CONTACT_TO_EMAIL, SMTP_USER, SMTP_NOREPLY_USER). Prezzi aggiornati a listino v3.0: Landing Page £900, Corporate £8k-£25k, sezione Gestione Presenza Digitale, Video Aziendale add-on. |
